@@ -41,7 +41,7 @@ clean   :
 	make -C examples clean
 	rm -f $(CT2_TOOLS_PATH)/*.o $(CT2_DRIVER_SRC_PATH)/*_bit.c 
 	rm -f $(CT2_TOOLS_PATH)/bit2arr
-
+	rm -f python/*.pyc
 
 bit2arr :  $(CT2_TOOLS_PATH)/bit2arr.c
 	$(CC) $(LDFLAGS) -o $(CT2_TOOLS_PATH)/$@ $^
