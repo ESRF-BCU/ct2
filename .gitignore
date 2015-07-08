@@ -10,3 +10,4 @@ bin/
 tools/bit2arr
 *.pyc
 *.pyo
+python/doc/build
