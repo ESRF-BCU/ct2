@@ -1,4 +1,5 @@
 *.o
+*~
 *.ko
 *.cmd
 *.mod.c
@@ -11,3 +12,4 @@ tools/bit2arr
 *.pyc
 *.pyo
 python/doc/build
+python/doc/source/ct2.*.rst
