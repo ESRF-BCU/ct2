@@ -1,9 +1,8 @@
-recursive-include CT2 *.py
+recursive-include ct2 *.py
 recursive-include test *.py
 include *.rst
 include CT2.xmi
-include *.txt
-graft docs
+graft doc
 
 global-exclude *.pyc
 global-exclude *.pyo

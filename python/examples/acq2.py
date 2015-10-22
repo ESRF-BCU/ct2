@@ -24,7 +24,7 @@ except:
     sys.path.append(this_dir)
     import ct2
 
-from ct2 import P201, Clock, Level, CtConfig, OutputSrc
+from ct2 import P201Card, Clock, Level, CtConfig, OutputSrc
 from ct2 import CtClockSrc, CtGateSrc, CtHardStartSrc, CtHardStopSrc
 
 
@@ -157,7 +157,7 @@ def main():
     acq_time = args.acq_time
     nb_acq = args.nb_acq
 
-    device = P201()
+    device = P201Card()
 
     configure(device, channels)
     prepare_master(device, acq_time, nb_points)
